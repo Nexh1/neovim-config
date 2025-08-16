@@ -1,0 +1,9 @@
+# Neovim swap, backup, undo
+*.swp
+*.swo
+*.bak
+*.un~
+*.undo
+
+# Lazy/Nvim cache
+lazy-lock.json
