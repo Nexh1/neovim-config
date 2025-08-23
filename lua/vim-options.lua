@@ -14,3 +14,12 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { noremap = true, silent = true })
+
+vim.keymap.set('n', '<C-f>', '<C-f>zz', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-b>', '<C-b>zz', { noremap = true, silent = true })
+
+vim.keymap.set('n', 'n', 'nzzzv')
+vim.keymap.set('n', 'N', 'Nzzzv')

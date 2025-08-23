@@ -3,6 +3,13 @@ return {
     "hrsh7th/cmp-nvim-lsp",
   },
   {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+      require("nvim-autopairs").setup({})
+    end
+  },
+  {
     "L3MON4D3/LuaSnip",
     dependencies = {
       "saadparwaiz1/cmp_luasnip",

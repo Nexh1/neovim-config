@@ -12,9 +12,6 @@ return {
       filesystem = {
         filtered_items = {
           visible = true,
-          show_hidden = true,
-          hide_dotfiles = false,
-          hide_gitignored = false,
         },
       },
       default_component_configs = {
