@@ -2,7 +2,7 @@ return {
   "nvim-treesitter/nvim-treesitter",
   branch = "master",
   build = ":TSUpdate",
-  config = function()  
+  config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
       ensure_installed = { "lua", "javascript", "go", "html", "css", "json", "bash" },
